@@ -122,12 +122,12 @@ Check out the [example project](example) for more examples.
 - [`maximumTrackTintColor`](#maximumtracktintcolor)
 - [`testID`](#testid)
 - [`value`](#value)
+- [`inverted`](#inverted)
 - [`thumbTintColor`](#thumbtintcolor)
 - [`maximumTrackImage`](#maximumtrackimage)
 - [`minimumTrackImage`](#minimumtrackimage)
 - [`thumbImage`](#thumbimage)
 - [`trackImage`](#trackimage)
-- [`inverted`](#inverted)
 
 ---
 
@@ -253,6 +253,15 @@ _This is not a controlled component_, you don't need to update the value during 
 
 ---
 
+### `inverted`
+Reverses the direction of the slider. Default value is false.
+
+| Type | Required |
+| ---- | -------- |
+| bool | No       |
+
+---
+
 ### `thumbTintColor`
 
 Color of the foreground switch grip.
@@ -270,8 +279,6 @@ Assigns a maximum track image. Only static images are supported. The leftmost pi
 | Type                   | Required | Platform |
 | ---------------------- | -------- | -------- |
 | Image.propTypes.source | No       | iOS      |
-
----
 
 ### `minimumTrackImage`
 
@@ -301,8 +308,6 @@ Assigns a single image for the track. Only static images are supported. The cent
 | ---------------------- | -------- | -------- |
 | Image.propTypes.source | No       | iOS      |
 
-<<<<<<< HEAD
-=======
 ---
 
 ### `inverted`
@@ -316,7 +321,6 @@ Reverses the direction of the slider. Default value is false.
 
 - [Michał Chudziak](https://github.com/michalchudziak) - [Callstack](https://callstack.com/)
 
->>>>>>> 0e90a9b... Inverted slider (#93)
 ## Contributors
 
 This module was extracted from `react-native` core. Please reffer to https://github.com/react-native-community/react-native-slider/graphs/contributors for the complete list of contributors.
